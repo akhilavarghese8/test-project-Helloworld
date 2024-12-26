@@ -1,0 +1,118 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.main-heading {
+    font-family: 'Nunito', sans-serif;
+    font-size: 64.5px;
+    font-weight: 700;
+    line-height: 87.97px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sub-heading {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17.2px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-align: left;
+    margin-top: -67px;
+}
+
+.students-info {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.students-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #333;
+}
+
+.students-icons {
+    display: flex;
+    gap: -10px;
+}
+
+.icon {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.action-container {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.book-seat-btn {
+    width: 260px;
+    height: 60px;
+    border: none;
+    border-radius: 60px;
+    background-color: #2F584E;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.journey-info {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.journey-icon {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.5);
+}
+
+.journey-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.icon-container {
+    transform: translate(7%, -176%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round-icon {
+  
+    width: 60px;
+    height: 60px;
+}
+
+.round-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.star-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.star-icon img {
+    width: 40px;
+    height: 40px;
+}
